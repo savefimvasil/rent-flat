@@ -46,7 +46,8 @@
           firstLoad: false,
           template: '',
           sort: '',
-          ammo: undefined
+          ammo: undefined,
+          id: undefined
         }
       },
       methods: {
@@ -54,13 +55,13 @@
           if(this.$route.query.parentId) {
             this.query = this.$route.query.parentId
           } else this.query = undefined
-          await this.$store.dispatch('flats/getAllFlatsById', this.query)
+          await this.$store.dispatch('flats/getAllFlatsById', this.$route.query.parentId)
           this.ammo = this.$store.state.ammo
           this.firstLoad = true
         },
         async getTemplate() {
           let id = this.$route.query.parentId
-          await this.$store.dispatch('flats/getTemplateName', id)
+          await this.$store.dispatch('flats/getTemplateName', this.id)
           this.sort = this.$store.state.sort
           this.template = this.$store.state.template
         }
@@ -73,6 +74,7 @@
         let id = this.$route.params.idItem
         await this.$store.dispatch('flats/getFlatById', id)
         this.ad = this.$store.state.ad
+        this.id = this.ad._id
       }
     }
 </script>

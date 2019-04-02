@@ -31,7 +31,7 @@ export const actions = {
       });
   },
   async getFlatById({commit}, id) {
-    let url = `http://localhost:4000/listHome/select/${id}`;
+    let url = `http://localhost:4000/listHome/search/${id}`;
     await axios.get(url).then((response) => {
       commit('setAd', response.data)
     });

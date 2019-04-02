@@ -4,8 +4,14 @@
       <div class="row">
         <label>Заголовок:</label>
         <div class="description">
-          <input placeholder="Заголовок UA" type="text" class="form-control" v-model="post.titleUA">
+          <input placeholder="Заголовок UA" @input="getURLName" type="text" class="form-control" v-model="post.titleUA">
           <input placeholder="Заголовок RU" type="text" class="form-control" v-model="post.titleRU">
+        </div>
+      </div>
+      <div class="row">
+        <label>URL:</label>
+        <div class="description">
+          <input placeholder="Заголовок UA" disabled type="text" class="form-control" v-model="post.url">
         </div>
       </div>
       <div class="row">
@@ -55,6 +61,31 @@
       }
     },
     methods: {
+      getURLName(e) {
+        this.post.url = this.transliteration(e.target.value)
+      },
+      transliteration( str ) {
+
+        let ru = {
+          'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd',
+          'е': 'e', 'ё': 'e', 'ж': 'j', 'з': 'z', 'и': 'i',
+          'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+          'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u',
+          'ф': 'f', 'х': 'h', 'ц': 'c', 'ч': 'ch', 'ш': 'sh',
+          'щ': 'shch', 'ы': 'y', 'э': 'e', 'ю': 'u', 'я': 'ya'
+        }, n_str = [];
+
+        str = str.replace(/[ъь]+/g, '').replace(/й/g, 'i');
+
+        for ( var i = 0; i < str.length; ++i ) {
+          n_str.push(
+            ru[ str[i] ]
+            || ru[ str[i].toLowerCase() ] == undefined && str[i]
+            || ru[ str[i].toLowerCase() ].replace(/^(.)/, function ( match ) { return match.toUpperCase() })
+          );
+        }
+        return n_str.join('');
+      },
       async addPost(){
         if(this.$route.query.parentId === undefined) {
           this.post.parentId = []
