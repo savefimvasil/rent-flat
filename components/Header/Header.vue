@@ -90,8 +90,7 @@
       a{
         color: $ghostWhite;
         padding: 0 10px;
-        border-bottom: 4px solid transparent;
-        border-top: 4px solid transparent;
+        border: 4px solid transparent;
         line-height: 50px;
         text-transform: uppercase;
         /*font-weight: bold;*/
@@ -99,8 +98,7 @@
         transition: .2s;
         &:hover{
           text-decoration: none;
-          border-bottom: 4px solid $ghostWhite;
-          border-top: 4px solid transparent;
+          border-color: $ghostWhite;
         }
       }
     }
@@ -154,7 +152,6 @@
     text-transform: uppercase;
     &:hover{
       text-decoration: none;
-      border-bottom: 4px solid $ghostWhite;
       border-top: 4px solid transparent;
     }
     &:focus{

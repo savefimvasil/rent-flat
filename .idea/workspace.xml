@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5867b238-ad25-4922-abe8-71a960b1bacb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/DB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/post.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/post.route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/main2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/_idItem.4c0d06a10ff43ade43d2.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/_idItem.4dad7a8b6af96df77f4b.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/_idItem.8ab040b3fe648ead0405.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/_idItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/commons.app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/flickity.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/index(1).js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/index(2).js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/rent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/healthy-index/ski-rental_files/vendors.app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Admin/AdminMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Admin/AdminMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Admin/FoodList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Admin/FlatList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Admin/FoodList/Add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Admin/FlatList/Add.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Admin/FoodList/Edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Admin/FlatList/Edit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Admin/FoodList/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Admin/FlatList/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FoodList/FoodList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/FlatsList/FlatsList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Main/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Main/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locales/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/locales/ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locales/ua.json" beforeDir="false" afterPath="$PROJECT_DIR$/locales/ua.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_lang/admin/dishes.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_lang/admin/flats.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_lang/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_lang/admin/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_lang/dishes/_idItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_lang/flats/_idItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_lang/dishes/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_lang/flats/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_lang/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_lang/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/firebase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/ammo.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/flats.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/news.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/FlatsList/FlatsList.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+              <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Header/Header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
             </state>
           </provider>
         </entry>
@@ -175,7 +134,6 @@
         <option value="$PROJECT_DIR$/server/post.route.js" />
         <option value="$PROJECT_DIR$/server/DB.js" />
         <option value="$PROJECT_DIR$/store/news.js" />
-        <option value="$PROJECT_DIR$/components/Header/Header.vue" />
         <option value="$PROJECT_DIR$/components/Footer/Footer.vue" />
         <option value="$PROJECT_DIR$/locales/ru.json" />
         <option value="$PROJECT_DIR$/components/Main/Main.vue" />
@@ -198,6 +156,7 @@
         <option value="$PROJECT_DIR$/pages/_lang/flats/_idItem.vue" />
         <option value="$PROJECT_DIR$/nuxt.config.js" />
         <option value="$PROJECT_DIR$/components/FlatsList/FlatsList.vue" />
+        <option value="$PROJECT_DIR$/components/Header/Header.vue" />
       </list>
     </option>
   </component>
@@ -228,18 +187,13 @@
             <path>
               <item name="rentFlat" type="b2602c69:ProjectViewProjectNode" />
               <item name="rentFlat" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FlatsList" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rentFlat" type="b2602c69:ProjectViewProjectNode" />
               <item name="rentFlat" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rentFlat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rentFlat" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="_lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +268,12 @@
       <workItem from="1552403007187" duration="18475000" />
       <workItem from="1554045543370" duration="12770000" />
       <workItem from="1554154449964" duration="79000" />
-      <workItem from="1554202272441" duration="10249000" />
+      <workItem from="1554202272441" duration="10714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161678000" />
+    <option name="totallyTimeSpent" value="162143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -329,7 +283,7 @@
       <window_info id="npm" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18957011" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23770492" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23770492" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -435,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Header/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -601,7 +548,14 @@
     <entry file="file://$PROJECT_DIR$/components/FlatsList/FlatsList.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+          <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Header/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
