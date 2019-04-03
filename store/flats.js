@@ -36,6 +36,12 @@ export const actions = {
       commit('setAd', response.data)
     });
   },
+  async getFlatByIdMongo({commit}, id) {
+    let url = `http://localhost:4000/listHome/select/${id}`;
+    await axios.get(url).then((response) => {
+      commit('setAd', response.data)
+    });
+  },
   async getAllFlatsById({commit}, id) {
     let url = 'http://localhost:4000/listHome/findByParent/' + id;
     await axios.get(url)

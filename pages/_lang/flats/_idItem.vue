@@ -64,6 +64,7 @@
           await this.$store.dispatch('flats/getTemplateName', this.id)
           this.sort = this.$store.state.sort
           this.template = this.$store.state.template
+          console.log(this.template, this.sort)
         }
       },
       async created() {

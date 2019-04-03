@@ -28,7 +28,7 @@
               </div>
             </div>
             <button @click="changeRoute(item.url, item._id)">Перейти к заказу</button>
-            {{item.url}}
+            {{item.blockView}}
           </div>
         </div>
       </div>
@@ -67,6 +67,9 @@
         });
         return data
       }
+    },
+    mounted() {
+      console.log(this.template)
     }
   }
 </script>

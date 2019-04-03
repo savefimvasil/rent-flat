@@ -61,8 +61,9 @@
     },
     async created() {
       let id = this.$route.query.editId
-      await this.$store.dispatch('flats/getFlatById', id)
+      await this.$store.dispatch('flats/getFlatByIdMongo', id)
       this.post = this.$store.state.ad
+      console.log(this.$store.state.ad)
     }
   }
 </script>
