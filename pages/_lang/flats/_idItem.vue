@@ -32,6 +32,7 @@
 
 <script>
     import FlatList from '../../../components/FlatsList/FlatsList'
+    import axios from 'axios'
 
     export default {
       name: "idItem",
@@ -41,7 +42,7 @@
       },
       data() {
         return{
-          ad: {},
+          // ad: {},
           query: undefined,
           firstLoad: false,
           template: '',
@@ -49,6 +50,16 @@
           ammo: undefined,
           id: undefined
         }
+      },
+      asyncData ({ params, query }) {
+        console.log(params)
+        let id = params.idItem
+        return axios.get(`http://localhost:4000/listHome/search/${id}`)
+          .then((res) => {
+            return {
+              ad: res.data
+            }
+          })
       },
       methods: {
         async getAds(){
@@ -70,13 +81,14 @@
       async created() {
         this.getAds()
         this.getTemplate()
+        // this.id = this.$route.params.idItem
       },
-      async mounted() {
-        let id = this.$route.params.idItem
-        await this.$store.dispatch('flats/getFlatById', id)
-        this.ad = this.$store.state.ad
-        this.id = this.ad._id
-      }
+      // async mounted() {
+      //   let id = this.$route.params.idItem
+      //   await this.$store.dispatch('flats/getFlatById', id)
+      //   this.ad = this.$store.state.ad
+      //   this.id = this.ad._id
+      // }
     }
 </script>
 
